@@ -1,1 +1,48 @@
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, maximum-scale=1.0" />
 
+        <title>Priyana Patel's 533 Digital Fabrication Page</title> 
+
+        <link href="style.css" media="screen" rel="stylesheet" type="text/css" />
+
+    </head> 
+    <body> 
+
+        <div class="header">
+            <h1>A4: Subtractive Manufacturing</h1>
+            <p>
+            By Priyana Patel 
+            </br>
+            </br>
+        
+            <img src="A04/a04-cover.jpg" width=750></a>              
+</br>
+</br>
+I chose the 3D printing option for this week’s assignment. I created my box model in Rhino, separated and adjusted each panel of the box, sliced in Cura, printed using my Ender 3 Pro, and then connected the pieces to create my final box. </br>
+</br>
+</br>
+<h4>Modeling the Box</h4>
+I decided to use Finger-Joints to connect my box, following a tutorial <a href="https://drive.google.com/drive/folders/1QNqdrZe2ImaY_wXidIOk8a68CaajpmmN?usp=sharing"> .stl files </a> provided by the Jacobs Institute for Design Innovation at UC Berkeley (https://www.youtube.com/watch?v=XG8oABefLGU&t=332s). I first created five 4-inch by 4inch (40 mm by 40 mm) panels using the Box function in Rhino. Each board was initially 0.125 inches thick. I connected each panel to create a box, leaving 0.125 inches on each side. I filled these gaps with eight 0.5-inch by 0.125-inch boxes stacked on top of each other. These represent the finger-joints that will connect the box together. I had to scale certain boxes on the edge of each panel using the Scale1D function, ensuring the length matched each corner of the box. 
+</br>
+After this, I used the BooleanUnion function to join the boxes and alternate joints. After connecting each panel with the joints, I hid the objects to make it easier to see which ones I had already connected. Once I joined all the sides, I rotated each panel and used Make2D to flatten the boards. I opened a new Rhino file and extruded the three sides back to 0.125 inches (one bottom and two adjoining sides) to see whether my pieces would fit.
+</br>
+</br>
+
+<h4>Refinements</h4>
+My first print made me realize that my panels were way too thin. I also printed the panels upright, which needed to be more sturdy and made the filament uneven. For my next print, I doubled the thickness to 0.250 inches, however, I forgot to offset the joints. Because of this, my panels were thick enough but did not fit together. I adjusted the joints by 0.250 inches for my third and final print, ensuring a tight fit. After a successful three-side test, I printed the other two panels and added a flat top (with no finger joints). With more time, I would add joints to all sides of the panels to ensure the top won’t come off. 
+
+<h4> Files </h4>
+<a href="https://drive.google.com/drive/folders/1QNqdrZe2ImaY_wXidIOk8a68CaajpmmN?usp=sharing"> .stl files </a> </br>
+<a href="https://drive.google.com/drive/folders/1VNGph7KkGLakQhQuHGm9ueCyRcSVOL8r?usp=sharing"> gcodes </a> 
+</br>
+
+<h4>Acknowledgements</h4>
+All of of the helpful questions and answers in the #question-and-answer Discord channel!
+            
+        </div>
+        
+    </body>
+</html>
