@@ -1,1 +1,113 @@
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, maximum-scale=1.0" />
+
+        <title>Priyana Patel's 533 Digital Fabrication Page</title> 
+
+        <link href="style.css" media="screen" rel="stylesheet" type="text/css" />
+
+    </head> 
+    <body> 
+        <p align="center">
+
+        <div class="header">
+            <h1>A8: Final Project</h1>
+            <p>
+            By Priyana Patel 
+            </br>
+            </br>
+  
+            <img src="A08/IMG_0041.jpeg" width=500></a>          
+</br>
+</br>
+<h3>Final Product</h3>
+<img src="A08/IMG_0041.jpeg" width=250></a> <img src="A08/IMG_0043.jpeg" width=250></a> <img src="A08/IMG_0045.jpeg" width=250></a> <img src="A08/IMG_0049.jpeg" width=250></a>         
+</br>
+</br>
+
+<h3>Concept</h3>
+<img src="A07/concept-sketch.jpg" width=750>
+</br>
+</br>
+
+<h3>Methods</h3>
+* Grasshopper - parametric circle </br>
+* Rhino - connectors, short and long sticks </br>
+* Laser cutting - bag structural pieces </br>
+* 3D printing - chain </br>
+* Inference/press fit - putting the bag together </br>
+</br>
+</br>
+
+<h3>Process</h3>
+<h4>Bag Structure<h4>
+Half Circles: I first created a parametric circle with slots along the circumference of my circle using my Grasshopper definition from A02 (linked in source files). Closely mirroring the dimensions from Cult Gaia’s bag design, I created 52, 5 mm by 3 mm slots. I picked the height of the slots based on my wood thickness. I made the radius of my circle 89 mm (~7” in diameter) so that my phone could fit just nicely in the bag. Once I baked my circle, I trimmed it just above the midpoint such that I had one solid slot to fit the connectors. I also straightened out the lines so that there weren’t any curves to ensure a tight, press fit. </br>
+</br>
+Connectors: To connect the bag at the top, I created two “connectors” each with 3 slots. I first created a Rectangle in Rhino and then placed a smaller rectangle (5 mm by 3 mm, the size of the slots) along the sides. Alternating by each rectangle, I created extra points in the rectangle and then joined and deleted accordingly. After making the connector a planar surface, I placed a 10 mm diameter circle about ⅔ of the way along the surface and cut a hole using Trim. </br>
+</br>
+Sticks:I created 25 short sticks (50 mm in height) that would fit into the slots and connect the two half circles. I also created four long sticks (178 mm in height) that would fit into the connector slots, horizontally across the bag (2 on each side). I made each of the sticks using the Rectangle function in Rhino. </br>
+</br>
+<img src="A07/concept-sketch.jpg" width=750>
+</br>
+</br>
+
+<h4>Test Model<h4>
+  I extruded each of my pieces by 3 mm in Rhino and decided to do a low quality test print while the laser cutters were closed to ensure my pieces would fit together nicely. The model was thankfully a success. </br>
+  </br>
+  <img src="A08/IMG_0012.jpeg" width=250> <img src="A08/IMG_0013.jpeg" width=250>
+  </br>
+  </br>
+
+<h4>Laser Cutting<h4>
+  After Thanksgiving, I headed to the 8 to laser cut my wood. I used 8 in by 8 in bamboo pieces. I selected Soft Wood and Pine after help from Jess and consulting what wood is closely similar to bamboo. Under these settings and after two passes, I was able to get a clean cut. I also adjusted the width of my sticks by 0.50 mm (5 mm → 5.5 mm) to ensure a tighter fit. </br>
+  </br>
+  <img src="A08/IMG_9999.jpeg" width=250> <img src="A08/IMG_0003.jpeg" width=250>  <img src="A08/IMG_0008.jpeg" width=250>
+  </br>
+  </br>
+
+<h4>Cleaning Up<h4>
+  To clean the soot off my wood, I created a diluted solution of Apple Cider Vinegar and warm water and used a cloth to lightly wipe my pieces. I used assorted grit sandpaper (100 for the surface, 150 for the sides/ends) to smooth them once dry. After wiping my pieces with a lint-free towel, I used two coats of White Ash wood stain. I finished my wood off with one coat of Tung Oil to give it a shiny look. </br>
+  </br>
+  <img src="A08/IMG_0009.jpeg" width=250> <img src="A08/IMG_0010.jpeg" width=250> <img src="A08/IMG_0011.jpeg" width=250>
+  </br>
+  </br>
+
+<h4>Chain<h4>
+  Using an stl file from Thingiverse, I printed several chain links with wood filament to match my bamboo wood. After some research and test prints, I increased my temperature to 225 degrees Celsisus to make sure there was no clogging or residue. The file I used had a slight opening on the end so I was able to easily attach my links to the appropriate length. </br>
+  </br> 
+  <img src="A08/IMG_0022.jpeg" width=250> <img src="A08/IMG_0058.jpeg" width=250> 
+  </br>
+  </br>
+
+<h4>Putting it Together<h4>
+  I lightly added some Super Glue to the ends and slots of my wood pieces to make sure my final bag was sturdy. Thankfully all the pieces fit in and clicked perfectly together. I then slid both ends of my chain down my connector into the opening to make sure it clicked all the way in. (After trying this out, I realized I didn’t have to print an additional anchor connector to link the chain and bag). And like that, I had my finished bag.  </br>
+  <img src="A08/IMG_0020.jpeg" width=250> <img src="A08/IMG_0060.jpeg" width=250> <img src="A08/IMG_0034.jpeg" width=250> <img src="A08/IMG_0057.jpeg" width=250> <img src="A08/IMG_0054.jpeg" width=250> 
+  </br>
+  </br>
+
+<h3>Bill of Materials</h3>
+<a href="https://www.amazon.com/gp/product/B09V35ZNNT/ref=ppx_yo_dt_b_asin_image_o00_s00?ie=UTF8&psc=1"> 3 mm Bamboo Plywood</a> </br>
+<a href="https://www.amazon.com/iSANMATE-Printer-Filament-Dimensional-Accuracy/dp/B081R88DQC/ref=sr_1_3?crid=14YDBZCK02CWZ&keywords=wood+pla+filament&qid=1669152466&sprefix=wood+pla+%2Caps%2C135&sr=8-3"> Wood PLA Filament </a> </br>
+<a href="https://www.amazon.com/dp/B002KHRNLU?psc=1&ref=ppx_yo2ov_dt_b_product_details"> Tung Oil</a> </br>
+<a href="https://www.amazon.com/dp/B00004Z48U?psc=1&ref=ppx_yo2ov_dt_b_product_details"> Sandpaper</a> </br>
+<a href="https://www.amazon.com/dp/B08CXBGM5Z?psc=1&ref=ppx_yo2ov_dt_b_product_details"> Wood Stain</a> </br>
+<a href="https://www.amazon.com/gp/product/B00OAAUAX8/ref=ppx_yo_dt_b_search_asin_image?ie=UTF8&psc=1"> Super Glue </a> </br>
+</br>
+</br>
+
+<h3>Source Files</h3>
+Grasshopper definition </br>
+Thingiverse chain  (stl + gcode) </br>
+Vector/AI Files </br>
+3D Model Rhino </br>
+
+<h3>Acknowledgements</h3>
+Jess Hord for being my laser cutting buddy and helping me figure out the right settings for bamboo plywood
+        </div>
+        
+    </body>
+</html>
+
 
